@@ -19,8 +19,12 @@ sky = SubResource("Sky_rnnuh")
 tonemap_mode = 2
 sdfgi_enabled = true
 sdfgi_use_occlusion = true
+sdfgi_cascades = 2
+sdfgi_energy = 2.09
+sdfgi_probe_bias = 31.33
 glow_enabled = true
 fog_enabled = true
+fog_light_color = Color(0.366893, 0.50867, 0.513926, 1)
 fog_density = 0.005
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ujeid"]
@@ -40,6 +44,7 @@ albedo_texture = ExtResource("4_c20fa")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(-0.866025, -0.433013, 0.25, 0, 0.5, 0.866025, -0.5, 0.75, -0.433013, 0, 0, 0)
+light_indirect_energy = 2.563
 shadow_enabled = true
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]

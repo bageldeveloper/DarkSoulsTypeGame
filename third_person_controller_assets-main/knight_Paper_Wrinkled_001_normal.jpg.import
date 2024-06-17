@@ -1,0 +1,38 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://0i013skvoilp"
+path.s3tc="res://.godot/imported/knight_Paper_Wrinkled_001_normal.jpg-a0da4ecdf7032a842c57d48f736ac4c2.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "01a21814b80b643b740ae48003b30b5e"
+}
+
+[deps]
+
+source_file="res://third_person_controller_assets-main/knight_Paper_Wrinkled_001_normal.jpg"
+dest_files=["res://.godot/imported/knight_Paper_Wrinkled_001_normal.jpg-a0da4ecdf7032a842c57d48f736ac4c2.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=1
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=1
+roughness/src_normal="res://third_person_controller_assets-main/knight_Paper_Wrinkled_001_normal.jpg"
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0
