@@ -1,16 +1,17 @@
 [gd_resource type="StandardMaterial3D" load_steps=4 format=3 uid="uid://db55wsap7dyku"]
 
-[ext_resource type="Texture2D" uid="uid://c18aqqeoqsxr6" path="res://models/knightgood_Paper_Wrinkled_001_basecolor.jpg" id="1_a3gcu"]
-[ext_resource type="Texture2D" uid="uid://cdodvtbp655rv" path="res://models/knightgood_Paper_Wrinkled_001_roughness.png" id="2_fpqcv"]
-[ext_resource type="Texture2D" uid="uid://c4yhojpixwwcq" path="res://models/knightgood_Paper_Wrinkled_001_normal.jpg" id="3_v2pe7"]
+[ext_resource type="Texture2D" uid="uid://c18aqqeoqsxr6" path="res://models/knightgood_Paper_Wrinkled_001_basecolor.jpg" id="1_g7sbk"]
+[ext_resource type="Texture2D" uid="uid://cdodvtbp655rv" path="res://models/knightgood_Paper_Wrinkled_001_roughness.png" id="2_jyrai"]
+[ext_resource type="Texture2D" uid="uid://c4yhojpixwwcq" path="res://models/knightgood_Paper_Wrinkled_001_normal.jpg" id="3_4qrir"]
 
 [resource]
 resource_name = "paper"
 cull_mode = 2
-albedo_texture = ExtResource("1_a3gcu")
-metallic_texture = ExtResource("2_fpqcv")
+albedo_texture = ExtResource("1_g7sbk")
+metallic_texture = ExtResource("2_jyrai")
 metallic_texture_channel = 2
-roughness_texture = ExtResource("2_fpqcv")
+roughness_texture = ExtResource("2_jyrai")
 roughness_texture_channel = 1
 normal_enabled = true
-normal_texture = ExtResource("3_v2pe7")
+normal_texture = ExtResource("3_4qrir")
+uv1_scale = Vector3(2.615, 2.615, 2.615)

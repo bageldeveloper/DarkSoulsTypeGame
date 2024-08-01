@@ -21,7 +21,9 @@ sky = SubResource("Sky_rnnuh")
 tonemap_mode = 2
 sdfgi_enabled = true
 sdfgi_use_occlusion = true
-sdfgi_energy = 3.03
+sdfgi_bounce_feedback = 0.54
+sdfgi_min_cell_size = 244.653
+sdfgi_energy = 3.28
 glow_enabled = true
 fog_enabled = true
 fog_light_color = Color(0.366893, 0.50867, 0.513926, 1)
@@ -96,7 +98,7 @@ environment = SubResource("Environment_alc52")
 [node name="map" type="Node" parent="."]
 
 [node name="floor" type="CSGBox3D" parent="map"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.546235, 0)
+transform = Transform3D(0.338124, 0, 0, 0, 0.338124, 0, 0, 0, 0.338124, 0, -0.546235, 0)
 material_override = ExtResource("1_yjahk")
 use_collision = true
 size = Vector3(1000, 1, 1000)
@@ -107,7 +109,7 @@ material_override = SubResource("StandardMaterial3D_rjxhp")
 use_collision = true
 
 [node name="CSGBox3D3" type="CSGBox3D" parent="map"]
-transform = Transform3D(0.747044, 0, 0.664774, 0, 1, 0, -0.664774, 0, 0.747044, -0.092758, 0.859532, -4.45102)
+transform = Transform3D(0.747044, 0, 0.664774, 0, 1, 0, -0.664774, 0, 0.747044, -2.92124, 0.238142, -2.91589)
 material_override = SubResource("StandardMaterial3D_w0joj")
 use_collision = true
 size = Vector3(1.76563, 2.02332, 2.72473)
